@@ -5,6 +5,7 @@ Static marketing and privacy-policy site for Contact Bridge, the macOS contacts 
 ## Commands
 
 - Preview: `python3 -m http.server 8000` (also `.claude/launch.json`, name `site`).
+- Test and lint: none (static HTML and CSS, no test suite or linter).
 - Format check (the only CI job, `.github/workflows/format.yml`): `pnpm format:check`.
 
 ## Gotchas
